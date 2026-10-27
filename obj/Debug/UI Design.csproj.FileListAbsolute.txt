@@ -1,9 +1,0 @@
-C:\Users\dyy\OneDrive - Hochiminh City University of Education\Desktop\trucxanh\obj\Debug\UI Design.csproj.AssemblyReference.cache
-C:\Users\dyy\OneDrive - Hochiminh City University of Education\Desktop\trucxanh\bin\Debug\UI Design.exe.config
-C:\Users\dyy\OneDrive - Hochiminh City University of Education\Desktop\trucxanh\bin\Debug\UI Design.exe
-C:\Users\dyy\OneDrive - Hochiminh City University of Education\Desktop\trucxanh\bin\Debug\UI Design.pdb
-C:\Users\dyy\OneDrive - Hochiminh City University of Education\Desktop\trucxanh\obj\Debug\UI_Design.FrmMain.resources
-C:\Users\dyy\OneDrive - Hochiminh City University of Education\Desktop\trucxanh\obj\Debug\UI Design.csproj.GenerateResource.cache
-C:\Users\dyy\OneDrive - Hochiminh City University of Education\Desktop\trucxanh\obj\Debug\UI Design.csproj.CoreCompileInputs.cache
-C:\Users\dyy\OneDrive - Hochiminh City University of Education\Desktop\trucxanh\obj\Debug\UI Design.exe
-C:\Users\dyy\OneDrive - Hochiminh City University of Education\Desktop\trucxanh\obj\Debug\UI Design.pdb
