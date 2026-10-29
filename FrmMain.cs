@@ -487,7 +487,7 @@ namespace UI_Design
             }
             else
             {
-                pb.Image = backImage;       // null nếu không có ảnh mặt úp -> game tự vẽ
+                pb.Image = backImage;     
                 pb.BackColor = ColBackB;
             }
             pb.Invalidate();
@@ -687,8 +687,6 @@ namespace UI_Design
             }
         }
 
-        // ====================== FILE THÀNH TÍCH ======================
-
         private string ScoreFilePath
         {
             get { return Path.Combine(Application.StartupPath, ScoreFileName); }
@@ -846,17 +844,22 @@ namespace UI_Design
      
 
         private void ShowGuide()
-        {
-            MessageBox.Show(
-                "CÁCH CHƠI:\n" +
-                "• Bấm BẮT ĐẦU. Các thẻ sẽ hiện ra trong " + (PreviewMs / 1000.0).ToString("0.#") + " giây để bạn ghi nhớ, sau đó úp lại.\n" +
-                "• Click vào thẻ để lật. Lật 2 thẻ giống nhau để ghép cặp.\n" +
-                "• Ghép đúng: +" + ScoreMatch + " điểm. Ghép sai: " + ScoreMismatch + " điểm và thẻ tự úp lại.\n" +
-                "• Bạn có " + TimeLimitSeconds + " giây để ghép hết các cặp.\n" +
-                "• Thắng sớm sẽ được cộng điểm thưởng theo thời gian còn lại.\n" +
-                "• Cuối ván, nhập tên để lưu vào Bảng Thành Tích.",
-                "Hướng Dẫn Chơi", MessageBoxButtons.OK, MessageBoxIcon.Information);
-        }
+    {
+        MessageBox.Show(
+            "CÁCH CHƠI:\n" +
+            "• Bấm BẮT ĐẦU. Các thẻ sẽ hiện ra trong " + (PreviewMs / 1000.0).ToString("0.#") + " giây để bạn ghi nhớ, sau đó úp lại.\n" +
+            "• Click vào thẻ để lật. Lật 2 thẻ giống nhau để ghép cặp.\n" +
+            "• Ghép đúng: +" + ScoreMatch + " điểm. Ghép sai: " + ScoreMismatch + " điểm và thẻ tự úp lại.\n" +
+            "• Bạn có " + TimeLimitSeconds + " giây để ghép hết các cặp.\n" +
+            "• Thắng sớm sẽ được cộng điểm thưởng theo thời gian còn lại.\n" +
+            "• Cuối ván, nhập tên để lưu vào Bảng Thành Tích.\n\n" +
+            "THÀNH VIÊN NHÓM:\n" +
+            "1. Nguyễn Lê Duy - 51.01.014.014 - Logic game và thuật toán\n" +
+            "2. Nguyễn Quang Duy - 51.01.104.015 - Timer/Âm thanh/Trạng thái game\n" +
+            "3. Nguyễn Phước Vũ - 51.01.104.122 - Giao diện\n" +
+            "4. Nguyễn Ngọc Long - 51.01.104.141 - Bảng xếp hạng và lưu dữ liệu",
+            "Hướng Dẫn Chơi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+    }
 
         private void PauseDuringDialog(Action show)
         {
