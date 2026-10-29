@@ -854,7 +854,7 @@ namespace UI_Design
             "• Thắng sớm sẽ được cộng điểm thưởng theo thời gian còn lại.\n" +
             "• Cuối ván, nhập tên để lưu vào Bảng Thành Tích.\n\n" +
             "THÀNH VIÊN NHÓM:\n" +
-            "1. Nguyễn Lê Duy - 51.01.014.014 - Logic game và thuật toán\n" +
+            "1. Nguyễn Lê Duy - 51.01.104.014 - Logic game và thuật toán\n" +
             "2. Nguyễn Quang Duy - 51.01.104.015 - Timer/Âm thanh/Trạng thái game\n" +
             "3. Nguyễn Phước Vũ - 51.01.104.122 - Giao diện\n" +
             "4. Nguyễn Ngọc Long - 51.01.104.141 - Bảng xếp hạng và lưu dữ liệu",
